@@ -1,0 +1,12 @@
+
+{
+    "version": "1.0",
+    "name": "nanbando/sulu",
+    "bindings": {
+        "e92111f6-95f3-4436-9779-bb36b1a1256d": {
+            "_class": "Puli\\Discovery\\Binding\\ClassBinding",
+            "class": "Nanbando\\Plugin\\Sulu\\NanbandoSuluBundle",
+            "type": "nanbando/bundle"
+        }
+    }
+}

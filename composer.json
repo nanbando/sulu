@@ -1,0 +1,27 @@
+{
+  "name": "nanbando/sulu",
+  "description": "Nanando-Plugin which provides sulu presets",
+  "type": "plugin",
+  "minimum-stability": "dev",
+  "require-dev": {
+    "nanbando/core": "^0.1|dev-master",
+    "phpunit/phpunit": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nanbando\\Plugin\\Sulu\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nanbando\\Plugin\\Sulu\\Tests\\": "tests/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johannes Wachter",
+      "email": "johannes.wachter@massiveart.at"
+    }
+  ]
+}
