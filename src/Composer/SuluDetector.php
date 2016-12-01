@@ -42,7 +42,7 @@ class SuluDetector
     {
         $this->container = $container;
 
-        $this->composer = Factory::create(new NullIO());
+        $this->composer = Factory::create(new NullIO(), getcwd() . DIRECTORY_SEPARATOR . 'composer.json');
         $this->locker = $this->composer->getLocker();
     }
 
