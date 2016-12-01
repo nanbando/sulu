@@ -41,6 +41,9 @@ You can install this plugin by adding `nanbando/sulu` to the `require`-section o
 ```json
 {
     "name": "application",
+    "imports": [
+        "app/config/parameters.yml"
+    ],
     "require": {
         "nanbando/sulu": "^0.1"
     }
