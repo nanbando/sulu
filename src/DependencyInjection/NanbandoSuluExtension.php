@@ -44,6 +44,16 @@ class NanbandoSuluExtension extends Extension implements PrependExtensionInterfa
         $detector = SuluDetector::create($container);
         if ($application = $detector->detect()) {
             $container->prependExtensionConfig('nanbando', ['application' => $application]);
+
+            if ('jackrabbit' == $application['type']
+                && $container->hasParameter('phpcr_backend')
+                && array_key_exists('url', $phpcrBackend = $container->getParameter('phpcr_backend'))
+            ) {
+                $container->setParameter(
+                    'jackrabbit_uri',
+                    $phpcrBackend['url']
+                );
+            }
         }
 
         $container->prependExtensionConfig(
