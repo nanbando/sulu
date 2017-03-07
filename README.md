@@ -50,6 +50,9 @@ You can install this plugin by adding `nanbando/sulu` to the `require`-section o
 }
 ```
 
+If you use the standard edition you also have to import `app/config/phpcr.yml` which contains the configuration for
+`phpcr_backend`.
+
 ## Documentation
 
 See the official documentation on [nanbando.readthedocs.io/en/latest/plugins/index.html](https://nanbando.readthedocs.io/en/latest/plugins/index.html).
