@@ -1,8 +1,20 @@
 # Change Log
 
+## [0.1.1](https://github.com/nanbando/sulu/tree/0.1.1) (2017-03-07)
+[Full Changelog](https://github.com/nanbando/sulu/compare/0.1.0...0.1.1)
+
+**Closed issues:**
+
+- Load jackrabbit\_uri from parameter phpcr\_backend.uri [\#3](https://github.com/nanbando/sulu/issues/3)
+
+**Merged pull requests:**
+
+- Fixed detect correct jackrabbit\_uri [\#4](https://github.com/nanbando/sulu/pull/4) ([wachterjohannes](https://github.com/wachterjohannes))
+
 ## [0.1.0](https://github.com/nanbando/sulu/tree/0.1.0) (2016-12-01)
 **Merged pull requests:**
 
+- Fixed finding composer file inside phar [\#2](https://github.com/nanbando/sulu/pull/2) ([wachterjohannes](https://github.com/wachterjohannes))
 - Added presets for sulu versions [\#1](https://github.com/nanbando/sulu/pull/1) ([wachterjohannes](https://github.com/wachterjohannes))
 
 
