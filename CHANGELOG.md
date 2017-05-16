@@ -1,5 +1,16 @@
 # Change Log
 
+## [0.1.2](https://github.com/nanbando/sulu/tree/0.1.2) (2017-05-16)
+[Full Changelog](https://github.com/nanbando/sulu/compare/0.1.1...0.1.2)
+
+**Closed issues:**
+
+- Undefined index: type in extension [\#5](https://github.com/nanbando/sulu/issues/5)
+
+**Merged pull requests:**
+
+- Fixed undefined type issue [\#6](https://github.com/nanbando/sulu/pull/6) ([wachterjohannes](https://github.com/wachterjohannes))
+
 ## [0.1.1](https://github.com/nanbando/sulu/tree/0.1.1) (2017-03-07)
 [Full Changelog](https://github.com/nanbando/sulu/compare/0.1.0...0.1.1)
 
