@@ -66,6 +66,7 @@ class NanbandoSuluExtension extends Extension implements PrependExtensionInterfa
                         'backup' => [
                             'database' => [
                                 'plugin' => 'mysql',
+                                'process' => ['database'],
                                 'parameter' => [
                                     'username' => '%database_user%',
                                     'password' => '%database_password%',
@@ -83,6 +84,7 @@ class NanbandoSuluExtension extends Extension implements PrependExtensionInterfa
                         'backup' => [
                             'uploads' => [
                                 'plugin' => 'directory',
+                                'process' => ['files'],
                                 'parameter' => [
                                     'directory' => 'var/uploads',
                                 ],
@@ -98,6 +100,7 @@ class NanbandoSuluExtension extends Extension implements PrependExtensionInterfa
                         'backup' => [
                             'uploads' => [
                                 'plugin' => 'directory',
+                                'process' => ['files'],
                                 'parameter' => [
                                     'directory' => 'uploads',
                                 ],
@@ -113,6 +116,7 @@ class NanbandoSuluExtension extends Extension implements PrependExtensionInterfa
                         'backup' => [
                             'cmf' => [
                                 'plugin' => 'jackrabbit',
+                                'process' => ['database'],
                                 'parameter' => [
                                     'jackrabbit_uri' => '%jackrabbit_uri%',
                                     'workspace' => '%phpcr_workspace%',
@@ -138,6 +142,7 @@ class NanbandoSuluExtension extends Extension implements PrependExtensionInterfa
                         'backup' => [
                             'cmf_live' => [
                                 'plugin' => 'jackrabbit',
+                                'process' => ['database'],
                                 'parameter' => [
                                     'jackrabbit_uri' => '%jackrabbit_uri%',
                                     'workspace' => '%phpcr_workspace%_live',
