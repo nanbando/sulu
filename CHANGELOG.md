@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.1.4](https://github.com/nanbando/sulu/tree/0.1.4) (2017-07-03)
+[Full Changelog](https://github.com/nanbando/sulu/compare/0.1.3...0.1.4)
+
+**Merged pull requests:**
+
+- Updated nanbando dependency [\#8](https://github.com/nanbando/sulu/pull/8) ([wachterjohannes](https://github.com/wachterjohannes))
+
 ## [0.1.3](https://github.com/nanbando/sulu/tree/0.1.3) (2017-07-02)
 [Full Changelog](https://github.com/nanbando/sulu/compare/0.1.2...0.1.3)
 
