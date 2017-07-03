@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.1.3](https://github.com/nanbando/sulu/tree/0.1.3) (2017-07-02)
+[Full Changelog](https://github.com/nanbando/sulu/compare/0.1.2...0.1.3)
+
+**Merged pull requests:**
+
+- Added process configuration [\#7](https://github.com/nanbando/sulu/pull/7) ([wachterjohannes](https://github.com/wachterjohannes))
+
 ## [0.1.2](https://github.com/nanbando/sulu/tree/0.1.2) (2017-05-16)
 [Full Changelog](https://github.com/nanbando/sulu/compare/0.1.1...0.1.2)
 
