@@ -8,7 +8,7 @@
         "nanbando/jackrabbit": "^0.1"
     },
     "require-dev": {
-        "nanbando/core": "^0.3|dev-master",
+        "nanbando/core": "^0.9.3|dev-master",
         "phpunit/phpunit": "^5.3"
     },
     "autoload": {
