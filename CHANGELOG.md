@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.2.0](https://github.com/nanbando/sulu/tree/0.2.0) (2017-07-11)
+[Full Changelog](https://github.com/nanbando/sulu/compare/0.1.4...0.2.0)
+
+**Merged pull requests:**
+
+- Added additional parameter to mysql-plugin [\#9](https://github.com/nanbando/sulu/pull/9) ([wachterjohannes](https://github.com/wachterjohannes))
+
 ## [0.1.4](https://github.com/nanbando/sulu/tree/0.1.4) (2017-07-03)
 [Full Changelog](https://github.com/nanbando/sulu/compare/0.1.3...0.1.4)
 
