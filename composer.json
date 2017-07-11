@@ -4,7 +4,7 @@
     "type": "plugin",
     "minimum-stability": "dev",
     "require": {
-        "nanbando/mysql": "^0.1",
+        "nanbando/mysql": "^0.2",
         "nanbando/jackrabbit": "^0.1"
     },
     "require-dev": {

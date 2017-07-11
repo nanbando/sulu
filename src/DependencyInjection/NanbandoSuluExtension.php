@@ -71,6 +71,8 @@ class NanbandoSuluExtension extends Extension implements PrependExtensionInterfa
                                     'username' => '%database_user%',
                                     'password' => '%database_password%',
                                     'database' => '%database_name%',
+                                    'port' => '%database_port%',
+                                    'host' => '%database_host%',
                                 ],
                             ],
                         ],
